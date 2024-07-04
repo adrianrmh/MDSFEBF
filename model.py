@@ -159,9 +159,7 @@ class MovieQuiz:
             mq.selected_answer(user_answer)
         else:
             mq.show_final_score()
-    
-
-        
+          
 # Inizializza il quiz e inizia
 quiz = MovieQuiz()
 quiz.start_quiz()
